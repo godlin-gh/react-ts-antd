@@ -4,12 +4,12 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
 
   entry: {
-    index: 'src/index.tsx'
+    index: './src/index.tsx'
   },
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'src/index.html',
+      template: './src/index.html',
       title: 'Output Management'
     })
   ],
@@ -32,19 +32,19 @@ module.exports = {
         ],
         exclude: /node_modules/
       },
-      // {
-      //   test: /\.css$/,
-      //   use: [
-      //     'style-loader',
-      //     'css-loader'
-      //   ]
-      // },
-      // {
-      //   test: /\.(png|svg|jpg|gif|jpeg)$/,
-      //   use: [
-      //     'file-loader'
-      //   ]
-      // }
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader'
+        ]
+      },
+      {
+        test: /\.(png|svg|jpg|gif|jpeg)$/,
+        use: [
+          'file-loader'
+        ]
+      }
     ]
   }
 

@@ -10,13 +10,13 @@
     "esModuleInterop": true,
     "jsx": "react"
   },
-  // "awesomeTypescriptLoaderOptions": {
-  //   "useBabel": true,
-  //   "babelOptions": {
-  //     "babelrc": true
-  //   },
-  //   "babelCore": "@babel/core"
-  // },
+  "awesomeTypescriptLoaderOptions": {
+    "useBabel": true,
+    "babelOptions": {
+      "babelrc": true
+    },
+    "babelCore": "@babel/core"
+  },
   "include": [
     "src/**/*"
   ]
