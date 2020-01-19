@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es6",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "react"
+  },
+  // "awesomeTypescriptLoaderOptions": {
+  //   "useBabel": true,
+  //   "babelOptions": {
+  //     "babelrc": true
+  //   },
+  //   "babelCore": "@babel/core"
+  // },
+  "include": [
+    "src/**/*"
+  ]
+}
