@@ -4,7 +4,7 @@ import { Button } from 'antd'
 const App = () => {
   return (
     <div>
-      <Button>button</Button>
+      <Button type="primary">button</Button>
     </div>
   )
 }
